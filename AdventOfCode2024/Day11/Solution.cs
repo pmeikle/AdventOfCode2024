@@ -87,8 +87,8 @@ public class Test
         Assert.That(Solution.FindNumStones(filename), Is.EqualTo(expected));
     }
     
-    [TestCase("Day11/complex.txt", 186424)]
-    public void ShouldFindNumStones75Blinks(string filename, int expected)
+    [TestCase("Day11/complex.txt", 219838428124832)]
+    public void ShouldFindNumStones75Blinks(string filename, long expected)
     {
         Assert.That(Solution.FindNumStonesPt2(filename), Is.EqualTo(expected));
     }
